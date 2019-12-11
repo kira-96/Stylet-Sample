@@ -1,5 +1,7 @@
 ﻿namespace WpfSample
 {
+    using ViewModels;
+
     public class ViewModelLocator
     {
         public ShellViewModel ShellViewModel =>

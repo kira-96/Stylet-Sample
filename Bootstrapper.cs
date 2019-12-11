@@ -3,6 +3,7 @@
     using Stylet;
     using StyletIoC;
     using System.Windows.Threading;
+    using ViewModels;
 
     public class Bootstrapper : Bootstrapper<ShellViewModel>
     {

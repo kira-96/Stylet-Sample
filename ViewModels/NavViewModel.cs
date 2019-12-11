@@ -1,4 +1,4 @@
-﻿namespace WpfSample
+﻿namespace WpfSample.ViewModels
 {
     using Stylet;
     using StyletIoC;
