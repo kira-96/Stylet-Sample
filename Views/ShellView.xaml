@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfSample.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:s="https://github.com/canton7/Stylet"
+        d:DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=ShellViewModel}"
+        mc:Ignorable="d"
+        Title="{Binding DisplayName}"
+        Width="800"
+        Height="450">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
+            <Button Content="Say Hello" Command="{s:Action SayHello}" />
+        </StackPanel>
+
+        <Button Content="Open Nav Window" 
+                Click="{s:Action OpenNavWindow}"
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Bottom"
+                Margin="2" />
+    </Grid>
+</Window>

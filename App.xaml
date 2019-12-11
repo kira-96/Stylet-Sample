@@ -1,0 +1,16 @@
+﻿<Application x:Class="WpfSample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:s="https://github.com/canton7/Stylet"
+             xmlns:app="clr-namespace:WpfSample">
+
+    <Application.Resources>
+        <s:ApplicationLoader>
+            <s:ApplicationLoader.Bootstrapper>
+                <app:Bootstrapper />
+            </s:ApplicationLoader.Bootstrapper>
+
+            <app:ViewModelLocator x:Key="ViewModelLocator" />
+        </s:ApplicationLoader>
+    </Application.Resources>
+</Application>
