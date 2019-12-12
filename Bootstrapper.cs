@@ -12,6 +12,7 @@
             base.ConfigureIoC(builder);
 
             builder.Bind<ILogger>().To<Logger>().InSingletonScope().AsWeakBinding();
+            builder.Bind<IViewModelFactory>().ToAbstractFactory();
         }
 
         protected override void Configure()

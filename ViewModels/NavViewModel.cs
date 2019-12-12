@@ -33,7 +33,7 @@
 
             if (propertyName == "ActiveItem")
             {
-                _logger?.Debug("Nav ActiveItem Changed: {0}", ActiveItem?.DisplayName);
+                _logger.Debug("Nav ActiveItem Changed: {0}", ActiveItem?.DisplayName);
                 _eventAggregator.Publish(new TabChangedEvent(ActiveItem));
             }
         }

@@ -15,6 +15,12 @@
         [Inject(Key = "filelogger")]
         private ILogger _logger;
 
+        [Inject]
+        private IContainer _container;
+
+        [Inject]
+        private IViewModelFactory _viewModelFactory;
+
         private string _name;
 
         public string Name
@@ -61,7 +67,9 @@
         public void OpenNavWindow(Button s, RoutedEventArgs e)
         {
             _logger.Info("Open new Nav Window.");
-            _windowManager.ShowWindow(SimpleIoC.Get<NavViewModel>());
+            // _windowManager.ShowWindow(_container.Get<NavViewModel>());
+            // _windowManager.ShowWindow(SimpleIoC.Get<NavViewModel>());
+            _windowManager.ShowWindow(_viewModelFactory.GetNavViewModel());
         }
     }
 }
