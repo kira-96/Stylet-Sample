@@ -1,12 +1,12 @@
 # Stylet-Sample
 
-»ùÓÚ .NET Core 3 µÄ WPF ÏîÄ¿
+åŸºäº .NET Core 3 çš„ WPF é¡¹ç›®
 
-[Stylet](https://github.com/canton7/Stylet) ÊÇÒ»¸öÇáÁ¿µÄ MVVM ¿ò¼Ü  
-×ÜµÄÀ´ËµÊ¹ÓÃÆğÀ´ºÍ [Caliburn.Micro]() »ù±¾ÉÏ²î±ğ²»´ó  
-¸öÈË¸Ğ¾õÊ¹ÓÃÆğÀ´±È Caliburn.Micro Òª¸ü¼òµ¥Ò»Ğ©£¬ÎÄµµÒ²±È½Ï·á¸»£¬Ç±Á¦»¹ÊÇºÜ²»´íµÄ
+[Stylet](https://github.com/canton7/Stylet) æ˜¯ä¸€ä¸ªè½»é‡çš„ MVVM æ¡†æ¶  
+æ€»çš„æ¥è¯´ä½¿ç”¨èµ·æ¥å’Œ [Caliburn.Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) åŸºæœ¬ä¸Šå·®åˆ«ä¸å¤§  
+ä¸ªäººæ„Ÿè§‰ä½¿ç”¨èµ·æ¥æ¯” Caliburn.Micro è¦æ›´ç®€å•ä¸€äº›ï¼Œæ–‡æ¡£ä¹Ÿæ¯”è¾ƒä¸°å¯Œï¼Œæ½œåŠ›è¿˜æ˜¯å¾ˆä¸é”™çš„
 
-## ÒÀÀµÏî
+## ä¾èµ–é¡¹
 
 * [Stylet](https://github.com/canton7/Stylet)
 * [NLog](https://nlog-project.org/)
